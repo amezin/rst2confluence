@@ -89,7 +89,6 @@ __ https://pypi.python.org/pypi/rst2confluence
 ============
 Dependencies
 ============
-- ``python-docutils``
 - ``colordiff`` (for running the tests)
 
 =====

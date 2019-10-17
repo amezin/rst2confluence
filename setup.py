@@ -25,5 +25,10 @@ setup(
 
     py_modules=['rst2confluence.confluence'],
     # package_dir={'rst2confluence': 'src/rst2confluence'},
-    scripts=['scripts/rst2confluence']
+    scripts=['scripts/rst2confluence'],
+
+    install_requires=[
+        'docutils',
+        'Pygments',
+    ]
 )
